@@ -6,8 +6,8 @@ class CostumeStore < ActiveRecord::Migration[4.2]
       el.text :location,
       el.integer :inventory,
       el.integer :employee_count,
-      el.boolean :still_exists
-      el.datetime :opening_time
+      el.boolean :still_exists,
+      el.datetime :opening_time,
       el.datetime :closing_time
   end
 end
