@@ -16,5 +16,6 @@ class Costume < ActiveRecord::Migration[4.2]
       el.text :size,
       el.text :url,
       el.timestamp
+      en
   end
 end
