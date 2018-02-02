@@ -13,8 +13,8 @@ class Costume < ActiveRecord::Migration
     create_table :costumes do |el|
       el.text :name
       el.integer :price
-      el.text :url
       el.text :size
+      el.text :url
       el.timestamp
   end
 end
