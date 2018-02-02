@@ -15,7 +15,7 @@ class Costume < ActiveRecord::Migration[4.2]
       el.integer :price
       el.text :size
       el.text :url
-      el.timestamp
+      el.timestamps null: false
     end
   end
 end
