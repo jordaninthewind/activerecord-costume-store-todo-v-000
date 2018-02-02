@@ -9,5 +9,6 @@ class CostumeStore < ActiveRecord::Migration[4.2]
       el.boolean :still_exists,
       el.datetime :opening_time,
       el.datetime :closing_time
+    end
   end
 end
