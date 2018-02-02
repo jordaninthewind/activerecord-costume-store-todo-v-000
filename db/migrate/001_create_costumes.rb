@@ -8,8 +8,8 @@
 # In this change method, create columns with the correct names and
 # value types according to the spec
 
-class Costume < ActiveRecord::Migration
+class CreateCostumes < ActiveRecord::Migration
   def change
-
+    create_table :
   end
 end
