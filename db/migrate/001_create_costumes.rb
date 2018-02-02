@@ -12,7 +12,7 @@ class Costume < ActiveRecord::Migration[4.2]
   def change
     create_table :costumes do |el|
       el.text :name
-      el.integer :price
+      el.float :price
       el.text :size
       el.text :url
       el.timestamps null: false
