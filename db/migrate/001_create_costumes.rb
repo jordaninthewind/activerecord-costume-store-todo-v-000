@@ -14,6 +14,6 @@ class Costume < ActiveRecord::Migration
       el.text :name
       el.integer :price
       el.text :url
-      el.
+      # el.
   end
 end
